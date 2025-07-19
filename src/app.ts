@@ -12,15 +12,12 @@ const app = express()
 // middleware
 app.use(express.json())
 
-
-
-// router 
+// router
 app.use('/api/user', userRouter)
 app.use('/api/auth', authRoute)
 app.use('/api/trainer', trainerRouter)
 app.use('/api/classSchedul', classSchedulrouter)
 app.use('/api/booking', bookingrouter)
-
 
 app.get('/', (req: Request, res: Response) => {
   res.send({
@@ -29,12 +26,9 @@ app.get('/', (req: Request, res: Response) => {
   })
 })
 
-
-
 //golbal error handelar
 app.use(globalErrorHandler)
 //route not found
 app.use(NotFound)
-
 
 export default app

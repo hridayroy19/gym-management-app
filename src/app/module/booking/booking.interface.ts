@@ -1,6 +1,6 @@
-import { Types } from 'mongoose';
+import { Types } from 'mongoose'
 
 export interface IBooking {
-  trainee: Types.ObjectId;
-  schedule: Types.ObjectId;
+  trainee: Types.ObjectId
+  schedule: Types.ObjectId
 }
