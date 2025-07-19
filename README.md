@@ -86,6 +86,6 @@ cd project-folders
 npm install
 npm run dev
 
-###Live Hosting Links: https://gym-class-scheduling-an-membership.vercel.app/
+###Live Hosting Links: https://gym-management-app-nine.vercel.app/
 
 Postman documentation: https://docs.google.com/document/d/1_F8mmzfM2O9awajs_b51Gkr7Fsd0dW59wIka7oLfMss/edit?usp=sharing
